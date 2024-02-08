@@ -1,0 +1,39 @@
+{
+    "houses": [
+        {
+            "name": "The Batcave",
+            "rating": 4,
+            "sleeps": 1
+        },
+        {
+            "name": "Avengers Tower",
+            "rating": 2,
+            "sleeps": 8
+        },
+        {
+            "name": "Notre Damn Cathedral",
+            "rating": 3,
+            "sleeps": 1
+        },
+        {
+            "name": "Downton Abbey",
+            "rating": 5,
+            "sleeps": 40
+        },
+        {
+            "name": "671 Lincoln Ave",
+            "rating": 3,
+            "sleeps": 18
+        },
+        {
+            "name": "90 Bedford St",
+            "rating": 5,
+            "sleeps": 3
+        },
+        {
+            "name": "Nakatomi Plaza",
+            "rating": 2,
+            "sleeps": 1000
+        }
+    ]
+}
