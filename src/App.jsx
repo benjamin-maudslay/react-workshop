@@ -1,4 +1,4 @@
-import Title from "./components/Title";
+import Header from "./components/Header";
 import { Content } from "./components/Content";
 import { useState, useEffect } from "react";
 import { PropertyWrapper } from "./components/PropertyWrapper";
@@ -17,9 +17,8 @@ const App = () => {
   }, [])
 
   return (
-    <div>
-      <Title text="Einstein - Sykes Property Management CMS" />
-      <Content text="Welcome to einstein. Here you will find every tool you need to manage properties uploaded to the Sykes site." />
+    <div className="wrapper">
+      <Header />
       <PropertyWrapper properties={properties.houses} />
     </div>
   );
