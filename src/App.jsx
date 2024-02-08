@@ -1,23 +1,13 @@
+import Title from "./components/Title";
+import { Content } from "./components/Content";
+
 const App = () => {
   return (
     <div>
-      <Title />
-      <Content />
+      <Title text="Einstein - Sykes Property Management CMS" />
+      <Content text="Welcome to einstein. Here you will find every tool you need to manage properties uploaded to the Sykes site." />
     </div>
-  )
-}
+  );
+};
 
-const Title = () => {
-  return (
-    <h1>Einstein - Sykes Property Management CMS</h1>
-  )
-}
-
-const Content = () => {
-  return (
-    <strong>WIP</strong>
-    <p>Welcome to einstein. <br /> Here you will find every tool you need to manage properties uploaded to the Sykes site.</p>
-  )
-}
-
-export default App
+export default App;
