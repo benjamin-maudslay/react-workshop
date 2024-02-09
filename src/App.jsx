@@ -13,8 +13,8 @@ const App = () => {
 
   const handleNewProperty = (newData) => {
     setProperties([
-      ...properties,
-      newData
+      newData,
+      ...properties
     ])
   }
 
