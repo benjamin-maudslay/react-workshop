@@ -1,0 +1,16 @@
+version: '3.9'
+
+networks:
+  react:
+
+services:
+  app:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    volumes:
+      - .:/app
+    ports:
+      - 5173:5173
+    networks:
+      - react
