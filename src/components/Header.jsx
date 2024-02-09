@@ -7,9 +7,9 @@ const Header = () => {
         <div className="flex">
           <img className="h-8 w-auto" src={sykesLogo} alt="" />
         </div>
-        <div className="lg:flex lg:gap-x-12">
+        {/* <div className="lg:flex lg:gap-x-12">
           <button type="button" className="add-button">New property</button>
-        </div>
+        </div> */}
       </nav>
     </header>
   );
