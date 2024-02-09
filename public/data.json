@@ -3,37 +3,44 @@
         {
             "name": "The Batcave",
             "rating": 4,
-            "sleeps": 1
+            "sleeps": 1,
+            "available": false
         },
         {
             "name": "Avengers Tower",
             "rating": 2,
-            "sleeps": 8
+            "sleeps": 8,
+            "available": true
         },
         {
             "name": "Notre Damn Cathedral",
             "rating": 3,
-            "sleeps": 1
+            "sleeps": 1,
+            "available": false
         },
         {
             "name": "Downton Abbey",
             "rating": 5,
-            "sleeps": 40
+            "sleeps": 40,
+            "available": true
         },
         {
             "name": "671 Lincoln Ave",
             "rating": 3,
-            "sleeps": 18
+            "sleeps": 18,
+            "available": true
         },
         {
             "name": "90 Bedford St",
             "rating": 5,
-            "sleeps": 3
+            "sleeps": 3,
+            "available": true
         },
         {
             "name": "Nakatomi Plaza",
             "rating": 2,
-            "sleeps": 1000
+            "sleeps": 1000,
+            "available": true
         }
     ]
 }
