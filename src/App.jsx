@@ -1,6 +1,7 @@
 import Header from "./components/Header";
 import { useState, useEffect } from "react";
 import { PropertyWrapper } from "./components/PropertyWrapper";
+import { Modal } from "./components/Modal";
 
 const App = () => {
   const [properties, setProperties] = useState([]);
@@ -12,11 +13,8 @@ const App = () => {
   };
 
   const handleNewProperty = (newData) => {
-    setProperties([
-      newData,
-      ...properties
-    ])
-  }
+    setProperties([newData, ...properties]);
+  };
 
   useEffect(() => {
     fetchData();
@@ -25,6 +23,7 @@ const App = () => {
   return (
     <div className="wrapper">
       <Header handleNewProperty={handleNewProperty} />
+      <Modal />
       <PropertyWrapper properties={properties} />
     </div>
   );
