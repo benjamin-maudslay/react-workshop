@@ -32,11 +32,11 @@ header button.add-button {
     }
 
     p {
-      @apply mt-1 text-sm text-gray-500;
+      @apply text-sm text-gray-500;
     }
 
     .property-text-inner {
-      @apply text-sm font-medium text-gray-900;
+      @apply text-sm font-medium text-gray-900 flex flex-col items-end;
     }
   }
 }

@@ -12,6 +12,7 @@ export const Property = ({ contents }) => (
       </div>
       <div className="property-text-inner">
         <p>{contents.rating}/5</p>
+        {!contents.available && <p>UNAVAILABLE</p>}
       </div>
     </div>
   </div>
