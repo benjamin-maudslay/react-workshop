@@ -8,8 +8,15 @@ const App = () => {
   const fetchData = async () => {
     let response = await fetch("./data.json");
     response = await response.json();
-    setProperties(response);
+    setProperties(response.houses);
   };
+
+  const handleNewProperty = (newData) => {
+    setProperties([
+      ...properties,
+      newData
+    ])
+  }
 
   useEffect(() => {
     fetchData();
@@ -17,8 +24,8 @@ const App = () => {
 
   return (
     <div className="wrapper">
-      <Header />
-      <PropertyWrapper properties={properties.houses} />
+      <Header handleNewProperty={handleNewProperty} />
+      <PropertyWrapper properties={properties} />
     </div>
   );
 };
