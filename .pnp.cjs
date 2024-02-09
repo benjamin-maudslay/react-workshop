@@ -38,6 +38,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.35"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:a5a2dd8571a5a18bbfec781a70af5bf67cd89a09794b18fef4df473ad66c365f8f341374a38e2d7fc49f05fad40f9a9c36b4efc917f9e43de5eeb441b74e4e90#npm:18.2.0"],\
+          ["sass", "npm:1.70.0"],\
           ["tailwindcss", "npm:3.4.1"],\
           ["vite", "virtual:a5a2dd8571a5a18bbfec781a70af5bf67cd89a09794b18fef4df473ad66c365f8f341374a38e2d7fc49f05fad40f9a9c36b4efc917f9e43de5eeb441b74e4e90#npm:5.1.0"]\
         ],\
@@ -2636,6 +2637,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["immutable", [\
+      ["npm:4.3.5", {\
+        "packageLocation": "../../.yarn/berry/cache/immutable-npm-4.3.5-5958499808-10c0.zip/node_modules/immutable/",\
+        "packageDependencies": [\
+          ["immutable", "npm:4.3.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["import-fresh", [\
       ["npm:3.3.0", {\
         "packageLocation": "../../.yarn/berry/cache/import-fresh-npm-3.3.0-3e34265ca9-10c0.zip/node_modules/import-fresh/",\
@@ -3936,6 +3946,7 @@ const RAW_RUNTIME_STATE =
           ["postcss", "npm:8.4.35"],\
           ["react", "npm:18.2.0"],\
           ["react-dom", "virtual:a5a2dd8571a5a18bbfec781a70af5bf67cd89a09794b18fef4df473ad66c365f8f341374a38e2d7fc49f05fad40f9a9c36b4efc917f9e43de5eeb441b74e4e90#npm:18.2.0"],\
+          ["sass", "npm:1.70.0"],\
           ["tailwindcss", "npm:3.4.1"],\
           ["vite", "virtual:a5a2dd8571a5a18bbfec781a70af5bf67cd89a09794b18fef4df473ad66c365f8f341374a38e2d7fc49f05fad40f9a9c36b4efc917f9e43de5eeb441b74e4e90#npm:5.1.0"]\
         ],\
@@ -4155,6 +4166,18 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../.yarn/berry/cache/safer-buffer-npm-2.1.2-8d5c0b705e-10c0.zip/node_modules/safer-buffer/",\
         "packageDependencies": [\
           ["safer-buffer", "npm:2.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sass", [\
+      ["npm:1.70.0", {\
+        "packageLocation": "../../.yarn/berry/cache/sass-npm-1.70.0-153257249c-10c0.zip/node_modules/sass/",\
+        "packageDependencies": [\
+          ["sass", "npm:1.70.0"],\
+          ["chokidar", "npm:3.6.0"],\
+          ["immutable", "npm:4.3.5"],\
+          ["source-map-js", "npm:1.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4725,7 +4748,7 @@ const RAW_RUNTIME_STATE =
           ["lightningcss", null],\
           ["postcss", "npm:8.4.35"],\
           ["rollup", "npm:4.9.6"],\
-          ["sass", null],\
+          ["sass", "npm:1.70.0"],\
           ["stylus", null],\
           ["sugarss", null],\
           ["terser", null]\

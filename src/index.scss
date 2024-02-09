@@ -10,6 +10,10 @@
   @apply mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8;
 }
 
+header button.add-button {
+  @apply w-full sm:w-auto py-2 px-3 text-sm text-white font-semibold rounded-md shadow focus:outline-none cursor-pointer bg-sykes-blue hover:bg-sykes-blue-light;
+}
+
 .property-wrapper {
   @apply relative;
 
